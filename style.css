@@ -189,6 +189,35 @@ section {
   transform: scale(1.05);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+.nav-menu{
+  display: none;
+}
+
+  section {
+    padding: 4rem 1rem;
+    min-height: auto;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+  #home h2 {
+    font-size: 1.2rem;
+  }
+  .profile-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 #home h1 {
   font-size: 3.5rem;
