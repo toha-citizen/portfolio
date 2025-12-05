@@ -479,10 +479,14 @@ section {
   border-radius: 50%;
   flex-shrink: 0;
 }
+<<<<<<< HEAD
 /* Learning Interest Section */
 #learning {
   background: white;
 }
+=======
+/*More-----> Section */
+>>>>>>> fd30eac51c6489736f3eb9e3d8861e7e01b682fc
 
 #learning h2 {
   font-size: 2.5rem;
@@ -830,4 +834,8 @@ textarea {
 footer {
   margin-top: 4rem;
   color: #6b7280;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> fd30eac51c6489736f3eb9e3d8861e7e01b682fc
