@@ -189,10 +189,12 @@ section {
   transform: scale(1.05);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
+
+/* Responsive */
 @media (max-width: 768px) {
-.nav-menu{
-  display: none;
-}
+  .nav-menu {
+    display: none;
+  }
 
   section {
     padding: 4rem 1rem;
@@ -202,22 +204,22 @@ section {
   #home h1 {
     font-size: 2rem;
   }
+
   #home h2 {
     font-size: 1.2rem;
   }
+
   .profile-img {
     width: 130px;
     height: 130px;
   }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .projects-grid,
   .skills-grid {
     grid-template-columns: 1fr;
   }
 }
+
 #home h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
@@ -332,7 +334,7 @@ section {
   color: #2563eb;
 }
 
-/* Projects Section */
+/* Projects */
 #projects {
   background: #f9fafb;
 }
@@ -376,9 +378,11 @@ section {
   height: 200px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+
 .project-content {
   padding: 1.5rem;
 }
+
 .project-content h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -421,7 +425,7 @@ section {
   color: #2563eb;
 }
 
-/* Skills Section */
+/* Skills */
 #skills {
   background: white;
 }
@@ -479,14 +483,11 @@ section {
   border-radius: 50%;
   flex-shrink: 0;
 }
-<<<<<<< HEAD
-/* Learning Interest Section */
+
+/* Learning Section */
 #learning {
   background: white;
 }
-=======
-/*More-----> Section */
->>>>>>> fd30eac51c6489736f3eb9e3d8861e7e01b682fc
 
 #learning h2 {
   font-size: 2.5rem;
@@ -566,7 +567,7 @@ section {
   font-size: 0.875rem;
 }
 
-/* Soft Skills Section */
+/* Soft Skills */
 #softskills {
   background: #f9fafb;
 }
@@ -638,7 +639,7 @@ section {
   line-height: 1.6;
 }
 
-/* Extra Curricular Section */
+/* Extra Curricular */
 #extracurricular {
   background: white;
 }
@@ -682,7 +683,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .activity-icon {
@@ -728,6 +728,7 @@ section {
   font-weight: 700;
   font-size: 1rem;
 }
+
 /* Contact Section */
 #contact {
   background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
@@ -751,8 +752,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-bottom: 3rem;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .social-link {
@@ -765,8 +766,8 @@ section {
   justify-content: center;
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
   color: #374151;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .social-link:hover {
@@ -794,7 +795,8 @@ section {
   margin-bottom: 1.5rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.875rem 1rem;
   border: 1px solid #d1d5db;
@@ -804,7 +806,8 @@ input, textarea {
   transition: border-color 0.3s;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   border-color: #2563eb;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
