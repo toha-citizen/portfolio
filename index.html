@@ -23,9 +23,11 @@
       <ul class="nav-menu">
         <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
         <li><a href="#about"> <i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="#education" style="color: gray;">
+            <i class="fa-solid fa-graduation-cap"></i> Education</a></li>
         <li><a href="#projects"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
         <li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
-        <li><a href="#learning"><i class="fa-solid fa-book"></i> Learning Interest</a></li>
+        <li><a href="#achievements"><i class="fa-solid fa-trophy"></i> Achievements</a></li>
       </ul>
 
       <!-- Menu Button with Dropdown -->
@@ -40,6 +42,13 @@
         <div class="dropdown-content">
           <h3>More</h3>
           <ul class="dropdown-menu">
+            <li>
+              <a href="#publications" class="dropdown-item">
+                <i class="fa-solid fa-book"></i>
+                <span>Publications</span>
+              </a>
+            </li>
+
             <li>
               <a href="#softskills" class="dropdown-item"> <svg class="dropdown-icon" fill="none" stroke="currentColor"
                   viewBox="0 0 24 24">
@@ -118,7 +127,97 @@
       </div>
     </div>
   </section>
+  <!-- Education Section -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="section-divider"></div>
 
+      <div class="education-timeline">
+
+        <!-- Education Item 1 -->
+        <div class="education-item" data-aos="fade-up">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="education-content">
+            <div class="education-header">
+              <h3 class="education-degree">Master of Science in Computer Science</h3>
+              <span class="education-gpa">GPA: 3.9/4.0</span>
+            </div>
+
+            <p class="education-institution">University Name</p>
+
+            <div class="education-meta">
+              <span class="education-location">
+                <i class="fas fa-map-marker-alt"></i> City, Country
+              </span>
+              <span class="education-period">
+                <i class="fas fa-calendar"></i> 2020 - 2022
+              </span>
+            </div>
+
+            <p class="education-description">
+              Specialized in Machine Learning and Data Science. Completed thesis on Deep Learning
+              applications in computer vision and natural language processing.
+            </p>
+
+            <div class="education-achievements">
+              <h4>Key Achievements:</h4>
+              <ul>
+                <li>Dean's List all semesters</li>
+                <li>Published research paper on Neural Networks</li>
+                <li>Teaching Assistant for Algorithm Design course</li>
+                <li>Winner of University AI Hackathon 2021</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Item 2 -->
+        <div class="education-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="education-content">
+            <div class="education-header">
+              <h3 class="education-degree">Bachelor of Technology in Computer Engineering</h3>
+              <span class="education-gpa">GPA: 3.8/4.0</span>
+            </div>
+
+            <p class="education-institution">College Name</p>
+
+            <div class="education-meta">
+              <span class="education-location">
+                <i class="fas fa-map-marker-alt"></i> City, Country
+              </span>
+              <span class="education-period">
+                <i class="fas fa-calendar"></i> 2016 - 2020
+              </span>
+            </div>
+
+            <p class="education-description">
+              Comprehensive study of computer science fundamentals including algorithms,
+              data structures, software engineering, and database management.
+            </p>
+
+            <div class="education-achievements">
+              <h4>Key Achievements:</h4>
+              <ul>
+                <li>First Class with Distinction</li>
+                <li>President of Computer Science Society</li>
+                <li>Winner of University Hackathon 2019</li>
+                <li>Best Final Year Project Award</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
   <!-- Projects Section -->
   <section id="projects">
     <div class="container">
@@ -222,97 +321,258 @@
       </div>
     </div>
   </section>
+
   <!--More section-->
-  <!-- Learning Interest Section -->
 
   <!-- Learning Interest Section -->
-  <section id="learning">
+
+  <!-- Achievements Section -->
+  <!-- Achievements Section -->
+  <section id="achievements" class="section achievements-section">
     <div class="container">
-      <h2>Learning Interest</h2>
-      <p>Areas I'm passionate about learning and exploring to enhance my skills and knowledge.</p>
+      <h2 class="section-title">Achievements & Awards</h2>
+      <div class="section-divider"></div>
 
-      <div class="learning-grid">
-        <div class="learning-card">
-          <div class="learning-icon">
-            <i class="fa-solid fa-brain fa-3x icon"></i>
+      <!-- Stats Grid -->
+      <div class="achievements-stats" data-aos="fade-up">
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="fas fa-trophy"></i>
           </div>
-          <h3>Artificial Intelligence & ML</h3>
-          <p>Exploring machine learning algorithms, neural networks, and AI applications to build intelligent systems.
+          <h3 class="stat-number" data-target="50">0</h3>
+          <p class="stat-label">Projects Completed</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class="stat-number" data-target="15">0</h3>
+          <p class="stat-label">Awards Won</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <h3 class="stat-number" data-target="500">0</h3>
+          <p class="stat-label">GitHub Contributions</p>
+        </div>
+
+        <div class="stat-box">
+          <div class="stat-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3 class="stat-number" data-target="8">0</h3>
+          <p class="stat-label">Publications</p>
+        </div>
+      </div>
+
+      <!-- Achievements Grid -->
+      <div class="achievements-grid">
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="achievement-badge trophy-gold">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>National Hackathon Winner</h3>
+            <p class="achievement-org">Tech Conference 2023</p>
+            <p class="achievement-date">March 2023</p>
+            <p class="achievement-desc">
+              First place winner among 150+ teams in national hackathon with an AI-powered
+              accessibility tool that helps visually impaired users navigate websites.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="achievement-badge award-blue">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Best Innovation Award</h3>
+            <p class="achievement-org">Current Company Name</p>
+            <p class="achievement-date">December 2022</p>
+            <p class="achievement-desc">
+              Recognized for developing an internal automation tool that improved team
+              productivity by 40% and reduced deployment time by 60%.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="achievement-badge star-purple">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Open Source Contributor of the Year</h3>
+            <p class="achievement-org">GitHub Community</p>
+            <p class="achievement-date">2020 - Present</p>
+            <p class="achievement-desc">
+              Active contributor to major open-source projects with 500+ contributions.
+              Maintained popular libraries with 10K+ stars combined.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="achievement-badge medal-green">
+            <i class="fas fa-medal"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Speaker at DevCon 2023</h3>
+            <p class="achievement-org">International Developer Conference</p>
+            <p class="achievement-date">June 2023</p>
+            <p class="achievement-desc">
+              Keynote speaker on "Building Scalable Web Applications" attended by 500+
+              developers from around the world.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="achievement-badge trophy-red">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Employee of the Year</h3>
+            <p class="achievement-org">Previous Company</p>
+            <p class="achievement-date">2021</p>
+            <p class="achievement-desc">
+              Selected among 200+ employees for exceptional performance, leadership,
+              and contribution to company growth.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="achievement-badge award-indigo">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Research Publication Excellence</h3>
+            <p class="achievement-org">IEEE Conference</p>
+            <p class="achievement-date">September 2022</p>
+            <p class="achievement-desc">
+              Published research paper on Machine Learning optimization techniques in
+              IEEE international conference with high citation count.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recognition Section -->
+      <div class="recognition-banner" data-aos="zoom-in" data-aos-delay="700">
+        <div class="recognition-content">
+          <i class="fas fa-quote-left"></i>
+          <h3>Recognition & Impact</h3>
+          <p>
+            Throughout my career, I've been fortunate to receive recognition for my work and
+            contributions to the tech community. These achievements motivate me to continue
+            pushing boundaries and creating impactful solutions that make a difference.
           </p>
-          <div class="learning-topics">
-            <span class="topic-tag">Deep Learning</span>
-            <span class="topic-tag">NLP</span>
-            <span class="topic-tag">Computer Vision</span>
-          </div>
-        </div>
-        <div class="learning-card">
-          <div class="learning-icon">
-           <i class="fa-solid fa-cloud fa-3x icon"></i>
-          </div>
-          <h3>Cloud Computing</h3>
-          <p>Learning cloud architecture, serverless computing, and infrastructure management on major platforms.</p>
-          <div class="learning-topics">
-            <span class="topic-tag">AWS</span>
-            <span class="topic-tag">Azure</span>
-            <span class="topic-tag">Kubernetes</span>
-          </div>
-        </div>
-
-        <div class="learning-card">
-          <div class="learning-icon">
-             <i class="fa-solid fa-shield-halved fa-3x icon"></i>
-          </div>
-          <h3>Cybersecurity</h3>
-          <p>Understanding security principles, ethical hacking, and best practices for building secure applications.
-          </p>
-          <div class="learning-topics">
-            <span class="topic-tag">Penetration Testing</span>
-            <span class="topic-tag">Encryption</span>
-            <span class="topic-tag">Security Audits</span>
-          </div>
-        </div>
-
-        <div class="learning-card">
-          <div class="learning-icon">
-            <i class="fa-solid fa-chart-line fa-3x icon"></i>
-          </div>
-          <h3>Data Science</h3>
-          <p>Diving into data analysis, visualization, and statistical modeling to extract meaningful insights.</p>
-          <div class="learning-topics">
-            <span class="topic-tag">Python</span>
-            <span class="topic-tag">R</span>
-            <span class="topic-tag">Big Data</span>
-          </div>
-        </div>
-
-        <div class="learning-card">
-          <div class="learning-icon">
-            <i class="fa-solid fa-mobile-screen-button fa-3x icon"></i>
-          </div>
-          <h3>Mobile Development</h3>
-          <p>Learning cross-platform mobile app development and native technologies for iOS and Android.</p>
-          <div class="learning-topics">
-            <span class="topic-tag">React Native</span>
-            <span class="topic-tag">Flutter</span>
-            <span class="topic-tag">Swift</span>
-          </div>
-        </div>
-
-        <div class="learning-card">
-          <div class="learning-icon">
-           <i class="fa-solid fa-link fa-3x icon"></i>
-          </div>
-          <h3>Blockchain Technology</h3>
-          <p>Exploring decentralized systems, smart contracts, and cryptocurrency development.</p>
-          <div class="learning-topics">
-            <span class="topic-tag">Ethereum</span>
-            <span class="topic-tag">Solidity</span>
-            <span class="topic-tag">Web3</span>
-          </div>
+          <i class="fas fa-quote-right"></i>
         </div>
       </div>
     </div>
   </section>
+  <!-- Publications Section -->
+    <!-- Publications Section -->
+<section id="publications" class="section publications-section">
+    <div class="container">
+        <h2 class="section-title">Publications & Research</h2>
+        <div class="section-divider"></div>
+
+        <!-- Publication Stats -->
+        <div class="publication-stats" data-aos="fade-up">
+            <div class="pub-stat">
+                <i class="fas fa-file-alt"></i>
+                <h3>2</h3>
+                <p>Journal Papers</p>
+            </div>
+            <div class="pub-stat">
+                <i class="fas fa-users"></i>
+                <h3>1</h3>
+                <p>Conference Paper</p>
+            </div>
+        </div>
+
+        <!-- Journal Publications -->
+        <div class="publications-category">
+            <h3 class="category-title">
+                <i class="fas fa-book"></i> Journal Articles
+            </h3>
+
+            <!-- ONE Journal Paper -->
+            <div class="publication-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="pub-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="pub-content">
+                    <h4 class="pub-title">
+                        Deep Learning Approaches for Real-Time Object Detection
+                    </h4>
+
+                    <p class="pub-authors">
+                        <i class="fas fa-users"></i>
+                        <strong>Your Name</strong>, Co-Author
+                    </p>
+
+                    <p class="pub-journal">
+                        <i class="fas fa-book-open"></i>
+                        <em>IEEE Transactions on Neural Networks</em>
+                    </p>
+
+                    <div class="pub-meta">
+                        <span class="pub-year">
+                            <i class="fas fa-calendar"></i> 2023
+                        </span>
+                        <span class="pub-doi">
+                            <i class="fas fa-link"></i> DOI: 10.1109/TNNLS.2023.1234567
+                        </span>
+                    </div>
+
+                    <p class="pub-abstract">
+                        <strong>Abstract:</strong> A deep learning-based object detection method optimized 
+                        for real-time autonomous systems.
+                    </p>
+
+                    <div class="pub-actions">
+                        <a href="#" class="pub-btn btn-pdf">
+                            <i class="fas fa-file-pdf"></i> View PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conference Publications -->
+        <div class="publications-category">
+            <h3 class="category-title">
+                <i class="fas fa-chalkboard-teacher"></i> Conference Presentations
+            </h3>
+
+            <div class="conference-grid">
+                <!-- ONE Conference Item -->
+                <div class="conference-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="conf-type">Oral Presentation</div>
+                    <h4>Building Scalable Microservices</h4>
+
+                    <p class="conf-event">International Conference on Software Engineering (ICSE)</p>
+
+                    <div class="conf-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> San Francisco, USA</span>
+                        <span><i class="fas fa-calendar"></i> May 2023</span>
+                    </div>
+
+                    <a href="#" class="conf-link">
+                        View Slides <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
   <!-- Soft Skills Section -->
   <section id="softskills">
