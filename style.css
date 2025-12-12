@@ -194,7 +194,18 @@ section {
   .nav-menu {
     display: none;
   }
+/* Mobile Desktop Mode & Large Mobile Fix */
+@media (max-width: 1024px) {
+    section {
+        min-height: auto !important;
+        padding: 3rem 1.2rem !important;
+    }
 
+    #home {
+        padding-top: 7rem !important;  
+        padding-bottom: 2rem !important;
+    }
+}
   section {
     padding: 4rem 1rem;
     min-height: auto;
@@ -217,18 +228,6 @@ section {
   .skills-grid {
     grid-template-columns: 1fr;
   }
-}
-/* Mobile Desktop Mode & Large Mobile Fix */
-@media (max-width: 1024px) {
-    section {
-        min-height: auto !important;
-        padding: 3rem 1.2rem !important;
-    }
-
-    #home {
-        padding-top: 7rem !important;  
-        padding-bottom: 2rem !important;
-    }
 }
 
 #home h1 {
