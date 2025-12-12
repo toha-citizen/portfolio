@@ -279,7 +279,13 @@ section {
 .btn-secondary:hover {
   background: #f9fafb;
 }
-
+.btn-third {
+  background: #10b981;
+  color: white;
+}
+.btn-third:hover {
+  background: #059669;
+}
 /* About Section */
 #about {
   background: white;
