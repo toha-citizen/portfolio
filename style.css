@@ -190,10 +190,11 @@ section {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 768px){ 
   .nav-menu {
     display: none;
   }
+}
 /* Mobile Desktop Mode & Large Mobile Fix */
 @media (max-width: 1024px) {
     section {
@@ -228,7 +229,6 @@ section {
   .skills-grid {
     grid-template-columns: 1fr;
   }
-}
 
 #home h1 {
   font-size: 3.5rem;
