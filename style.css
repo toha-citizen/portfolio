@@ -195,18 +195,6 @@ section {
     display: none;
   }
 }
-/* Mobile Desktop Mode & Large Mobile Fix */
-@media (max-width: 1024px) {
-    section {
-        min-height: auto !important;
-        padding: 3rem 1.2rem !important;
-    }
-
-    #home {
-        padding-top: 7rem !important;  
-        padding-bottom: 2rem !important;
-    }
-}
   section {
     padding: 4rem 1rem;
     min-height: auto;
@@ -524,58 +512,6 @@ section {
     font-size: 1.1rem;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .education-section {
-        padding: 60px 0;
-    }
-
-    .section-title {
-        font-size: 2rem;
-    }
-
-    .education-timeline::before {
-        left: 20px;
-    }
-
-    .education-item {
-        padding-left: 60px;
-    }
-
-    .education-icon {
-        left: 3px;
-        width: 35px;
-        height: 35px;
-        font-size: 1rem;
-    }
-
-    .education-degree {
-        font-size: 1.2rem;
-    }
-
-    .education-header {
-        flex-direction: column;
-    }
-
-    .education-meta {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .section-title {
-        font-size: 1.8rem;
-    }
-
-    .education-content {
-        padding: 20px;
-    }
-
-    .education-degree {
-        font-size: 1.1rem;
-    }
-}
 
 /* Projects */
 #projects {
@@ -953,74 +889,6 @@ section {
     line-height: 1.8;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .achievements-section {
-        padding: 60px 0;
-    }
-
-    .achievements-stats {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .stat-box {
-        padding: 20px;
-    }
-
-    .stat-number {
-        font-size: 2.5rem;
-    }
-
-    .achievements-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .achievement-card {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    .recognition-banner {
-        padding: 30px 20px;
-    }
-
-    .recognition-content h3 {
-        font-size: 1.5rem;
-    }
-
-    .recognition-content p {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .achievements-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .stat-icon {
-        width: 60px;
-        height: 60px;
-        font-size: 1.5rem;
-    }
-
-    .stat-number {
-        font-size: 2rem;
-    }
-
-    .achievement-badge {
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
-    }
-
-    .achievement-content h3 {
-        font-size: 1.1rem;
-    }
-}
 /*publications section*/
 /* Publications Section */
 .publications-section {
@@ -1379,68 +1247,8 @@ section {
     transform: translateX(5px);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .publications-section {
-        padding: 60px 0;
-    }
 
-    .publication-item {
-        flex-direction: column;
-        padding: 20px;
-    }
 
-    .pub-icon {
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
-    }
-
-    .pub-title {
-        font-size: 1.1rem;
-    }
-
-    .pub-meta {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .pub-actions {
-        flex-direction: column;
-    }
-
-    .pub-btn {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .conference-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .publication-stats {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .category-title {
-        font-size: 1.5rem;
-    }
-
-    .pub-stat {
-        padding: 20px;
-    }
-
-    .pub-stat h3 {
-        font-size: 2rem;
-    }
-
-    .publication-stats {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* Soft Skills */
 #softskills h2 {
