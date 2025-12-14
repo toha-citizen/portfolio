@@ -20,6 +20,47 @@ contactForm.addEventListener("submit", function (e) {
         })
         .catch(error => {
             console.error("Error:", error);
-            alert("Message পাঠানো যায়নি। আবার চেষ্টা করুন।");
+            alert("Message sending failed.");
         });
 });
+
+(function () {
+
+  const navbar = document.querySelector(".navbar");
+  const sections = document.querySelectorAll("section");
+
+  function fixLayout() {
+    const width = window.innerWidth;
+
+    // Fixed navbar gap fix
+    if (navbar) {
+      document.body.style.paddingTop = navbar.offsetHeight + "px";
+    }
+
+    // Mobile + mobile desktop mode
+    if (width <= 1024) {
+      sections.forEach(section => {
+        section.style.minHeight = "auto";
+        section.style.paddingTop = "4rem";
+        section.style.paddingBottom = "4rem";
+      });
+
+      const home = document.getElementById("home");
+      if (home) {
+        home.style.paddingTop = "7rem";
+      }
+
+    } else {
+      sections.forEach(section => {
+        section.style.minHeight = "";
+        section.style.paddingTop = "";
+        section.style.paddingBottom = "";
+      });
+      document.body.style.paddingTop = "";
+    }
+  }
+
+  window.addEventListener("load", fixLayout);
+  window.addEventListener("resize", fixLayout);
+
+})();
