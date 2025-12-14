@@ -1703,3 +1703,123 @@ footer {
   margin-top: 4rem;
   color: #6b7280;
 }
+/* ============================= */
+/* MOBILE + DESKTOP MODE FIX */
+/* ============================= */
+
+/* Prevent horizontal scroll */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Container safety */
+.container,
+section,
+.education-section,
+.achievements-section,
+.publications-section {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* ============================= */
+/* TABLET + MOBILE DESKTOP MODE */
+/* ============================= */
+@media (max-width: 1024px) {
+  section {
+    min-height: auto !important;
+    padding: 4rem 1.2rem !important;
+  }
+
+  #home {
+    padding-top: 7rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .nav-menu {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  /* Sections */
+  section {
+    padding: 3.5rem 1rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+
+  /* Profile image */
+  .profile-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  /* Grid → single column */
+  .projects-grid,
+  .skills-grid,
+  .softskills-grid,
+  .extracurricular-grid,
+  .achievements-grid,
+  .conference-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Education timeline fix */
+  .education-timeline::before {
+    left: 18px;
+  }
+
+  .education-item {
+    padding-left: 55px;
+  }
+}
+
+/* ============================= */
+/* SMALL MOBILE */
+/* ============================= */
+@media (max-width: 480px) {
+
+  section {
+    padding: 3rem 0.8rem !important;
+  }
+
+  h1 {
+    font-size: 1.7rem !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-links {
+    gap: 1rem;
+  }
+}
