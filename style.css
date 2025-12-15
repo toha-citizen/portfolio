@@ -25,7 +25,7 @@ body {
   backdrop-filter: blur(5px);
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
-  padding: 1rem 2rem;
+  padding: 0.5rem;
 }
 
 .nav-container {
