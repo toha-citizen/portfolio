@@ -57,6 +57,9 @@ Live website link:
 https://toha-citizen.github.io/portfolio/
 
 ---
+##Google Sheet Link--->Below
+
+https://docs.google.com/spreadsheets/u/0/?ec=wgc-sheets-globalnav-goto
 
 ## 🎨 Figma Design
 
