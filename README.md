@@ -64,7 +64,9 @@ https://docs.google.com/spreadsheets/u/0/?ec=wgc-sheets-globalnav-goto
 ## 🎨 Figma Design
 
 Figma prototype link:  
+
 https://www.figma.com/design/J6yb7PtDB7wnYVKdLH5AxX/Untitled?node-id=0-1&p=f&t=Yva3F5Qhh4ccco7D-0
+
 ---
 
 ## 📧 Contact
