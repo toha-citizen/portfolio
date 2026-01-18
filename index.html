@@ -17,29 +17,100 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#home" class="nav-name">Tanjimul Hasan Toha</a>
-      <ul class="nav-menu">
-        <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-        <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
-        <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
-        <li><a href="#projects"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
-        <li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
-      </ul>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-name">Tanjimul Hasan Toha</a>
+    
+    <!-- Desktop Navigation (hidden on mobile) -->
+    <ul class="nav-menu desktop-nav" id="mainNav">
+      <li class="move-item"><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li class="move-item"><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+      <li class="move-item"><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+      <li class="move-item"><a href="#projects"><i class="fa-solid fa-folder-open"></i> Projects</a></li>
+      <li class="move-item"><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+    </ul>
+    
+    <!-- Menu Button with Dropdown (Visible on both desktop & mobile) -->
+    <div class="menu-dropdown">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn">
+        <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <span class="menu-text"><i class="fa-solid fa-bars"></i></span>
+      </label>
 
-      <!-- Menu Button with Dropdown -->
-      <div class="menu-dropdown">
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-        <label for="menu-toggle" class="menu-btn">
-          <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </label>
-
-        <div class="dropdown-content">
-          <h3>More</h3>
-          <ul class="dropdown-menu">
+      <div class="dropdown-content">
+        <!-- Desktop: Shows only "More" items -->
+        <div class="desktop-dropdown">
+          <ul class="dropdown-menu desktop-dropdown-menu">
+            <li>
+              <a href="#achievements" class="dropdown-item">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Achievements</span>
+              </a>
+            </li>
+            <li>
+              <a href="#publications" class="dropdown-item">
+                <i class="fa-solid fa-book"></i>
+                <span>Publications</span>
+              </a>
+            </li>
+            <li>
+              <a href="#softskills" class="dropdown-item">
+                <i class="fa-solid fa-user-friends"></i>
+                <span>Soft Skills</span>
+              </a>
+            </li>
+            <li>
+              <a href="#extracurricular" class="dropdown-item">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Extra Curricular</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Mobile: Shows all items -->
+        <div class="mobile-dropdown">
+          <ul class="dropdown-menu mobile-dropdown-menu">
+            <!-- Main Nav Items for Mobile -->
+            <li class="mobile-nav-item">
+              <a href="#home" class="dropdown-item">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#about" class="dropdown-item">
+                <i class="fa-solid fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#education" class="dropdown-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#projects" class="dropdown-item">
+                <i class="fa-solid fa-folder-open"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#skills" class="dropdown-item">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+              </a>
+            </li>
+            
+            <!-- Divider -->
+            <li class="dropdown-divider">More</li>
+            
+            <!-- More Items (same as desktop) -->
             <li>
               <a href="#achievements" class="dropdown-item">
                 <i class="fa-solid fa-trophy"></i>
@@ -68,8 +139,9 @@
         </div>
       </div>
     </div>
-  </nav>
-  <!-- Home Section -->
+  </div>
+</nav>
+<!-- Home Section -->
   <section id="home">
     <div class="container">
       <div class="profile-picture">
